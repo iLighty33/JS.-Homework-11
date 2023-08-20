@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.myByttonArea {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.myCircle {
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.button {
+    display: flex;
+    border: 2px solid black;
+    width: 150px;
+    height: 30px;
+    margin: 10px 20px;
+    padding: 0 2px;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    justify-content: center;
+}
+.button:hover {
+    background-color: rgb(151, 133, 192);
+}
